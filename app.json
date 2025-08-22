@@ -1,9 +1,12 @@
 {
-  "expo": {
-    "name": "iShareRN",
-    "slug": "iShareRN",
-    "version": "1.0.0",
-    "orientation": "portrait",
+"expo": {
+"name": "iShareRN",
+"slug": "iShareRN",
+"version": "1.0.0",
+"orientation": "portrait",
+"cli": {
+  "appVersionSource": "remote"
+},
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
@@ -19,10 +22,13 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ishare.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35
     },
     "web": {
       "bundler": "metro",
@@ -35,6 +41,14 @@
     "experiments": {
       "tsconfigPaths": true,
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4a82e0be-5502-4e5a-bb43-9657eb12e290"
+      }
     }
   }
 }
