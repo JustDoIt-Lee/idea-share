@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 전구 소켓 (메탈릭) -->
+    <path d="M85 130H115V150C115 155.523 110.523 160 105 160H95C89.4772 160 85 155.523 85 150V130Z" fill="#B7B7B7"/>
+    <path d="M88 130H112V145C112 147.761 109.761 150 107 150H93C90.2386 150 88 147.761 88 145V130Z" fill="#D8D8D8"/>
+    
+    <!-- 전구 몸체 -->
+    <path d="M85 60C85 38.9543 102.386 25 100 25C120 25 135 41.9543 135 63C135 84.0457 120 95 100 95C80 95 85 81.0457 85 60Z" fill="#FFE55C"/>
+    <path d="M85 60C85 38.9543 102.386 25 100 25C120 25 135 41.9543 135 63C135 84.0457 120 95 100 95C80 95 85 81.0457 85 60Z" fill="url(#paint0_radial)"/>
+    
+    <!-- 전구 하단 연결부 -->
+    <path d="M90 95H110C112.761 95 115 97.2386 115 100V130H85V100C85 97.2386 87.2386 95 90 95Z" fill="#CCCCCC"/>
+    
+    <!-- 반사광 효과 -->
+    <path d="M95 40C95 35 100 30 105 30C110 35 112 40 110 45C108 50 100 50 95 45C93 43 94 41 95 40Z" fill="white" fill-opacity="0.6"/>
+    
+    <defs>
+        <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(100 60) rotate(90) scale(40 30)">
+            <stop offset="0" stop-color="white" stop-opacity="0.4"/>
+            <stop offset="1" stop-color="#FFE55C" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+</svg>
